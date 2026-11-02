@@ -2,7 +2,7 @@
 
 **Parstagram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
-## Learning Attainment & Objectives
+## Topics Demonstrated
 ### State Isolation & Interface Architecture
 * **view-state-isolation** — Swapped views via Fragments to prevent cross-contamination of memory or UI thread leaks between active screens.
 * **modular-ui-design** — Designed independent view containers (Feed, Compose, Profile) managed by a unified navigation controller.
