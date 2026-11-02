@@ -2,7 +2,36 @@
 
 **Parstagram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
-Time spent: **5** hours spent in total
+## Learning Attainment & Objectives
+### State Isolation & Interface Architecture
+* **view-state-isolation** — Swapped views via Fragments to prevent cross-contamination of memory or UI thread leaks between active screens.
+* **modular-ui-design** — Designed independent view containers (Feed, Compose, Profile) managed by a unified navigation controller.
+* **state-machine-navigation** — Enforced deterministic UI state paths based on direct interaction with a BottomNavigationView controller.
+* **client-side-routing** — Programmatically coordinated local intent contexts and fragment transactions within an operating system wrapper.
+
+### Data Lifecycle & Pipeline Governance
+* **data-handling-constraints** — Explicitly engineered the client-side logic to strictly cap and bound remote query payloads to exactly 20 elements.
+* **payload-optimization** — Mitigated local device thread starvation and network overhead by hard-limiting relational database fetching rows.
+* **backend-as-a-service-integration** — Structured communication lines natively to synchronize local application models with an abstract Parse cloud store.
+* **asynchronous-network-io** — Dispatched asset fetching processes to background system threads to eliminate main UI frame drops.
+
+### Information Architecture & Object Mapping
+* **object-relational-mapping** — Translated local object attributes seamlessly into remote relational tables hosted on Back4App.
+* **ephemeral-data-handling** — Managed volatile device memory footprints when loading and indexing binary objects (images) in local UI caches.
+* **data-pagination-logic** — Segmented, limited, and indexed data stream arrays cleanly as a fundamental computing baseline.
+* **information-architecture** — Categorized and structured relational photo objects to correlate with a singular user identity context.
+
+### Software Engineering & Governance Constraints
+* **rapid-prototyping** — Designed, deployed, tested, and confirmed a functional distributed mobile application under tight 5-hour time boundaries.
+* **resource-constrained-development** — Engineered systems logic under intentional development time limits without abandoning functional completeness.
+* **software-integration** — Programmatically aligned native Android layout resources, camera device APIs, and specialized Parse database SDKs.
+* **systems-validation** — Tested a finished multi-view client layout to ensure UI elements updated cleanly following data mutations.
+
+### Device & Computing Foundations
+* **hardware-api-orchestration** — Navigated and called native Android device subsystem components to capture external media assets (Camera).
+* **mobile-architecture** — Managed activity contexts, layout lifecycle bounds, and component relationships inside a mobile OS environment.
+* **object-oriented-programming** — Used class inheritance structures and modular polymorphism to build out view elements.
+* **decoupled-architecture** — Separated client presentation fragments entirely from data hosting layers (Back4App), protecting local operations from remote state changes.
 
 ## User Stories
 
